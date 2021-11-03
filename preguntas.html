@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Animales</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="script.js"></script>
+
+  
+
+      
+      
+    
+
+    <div> 
+   <div class="imagenPregunta1">
+   <h2> 
+     ¿Qué come realmente un perezoso?
+   </h2>
+
+   <div>
+    <button id="boton1" onclick="checkbtn('Hojas')"> Hojas </button>
+    <button id="boton2" onclick="checkbtn('Miel')"> Miel </button>
+    <button id="boton3" onclick="checkbtn('Pescados')"> Pescados </button> 
+   </div> 
+
+   </div> 
+
+  <button id="open">Siguiente</button>
+    <script>
+      function abrirNuevoTab(url) {
+        // Abrir nuevo tab
+        var win = window.open(url, '_blank');
+        // Cambiar el foco al nuevo tab (punto opcional)
+        win.focus();
+      }
+      $('#open').click(function(){
+        abrirNuevoTab('index.html')
+      })
+    </script>
+
+ 
+
+    
+  </body>
+
+
+  
+ 
+</html>
